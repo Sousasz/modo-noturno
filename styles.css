@@ -1,0 +1,65 @@
+body {
+  height: 80vh;
+  margin: 3;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background-color 0.3s;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+button img#moon-image {
+  width: 30px;
+  height: 30px;
+}
+
+button img#sun-image {
+  width: 25px;
+  height: 25px;
+}
+
+img#google-image {
+  width: 30rem;
+  height: 10rem;
+}
+
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.modes button.btn-dark-mode {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 50px;
+  height: 35px;
+  font-size: large;
+  transition: ease-in 0.3s;
+}
+.modes button.btn-white-mode {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 50px;
+  height: 35px;
+  font-size: large;
+  transition: ease-in 0.3s;
+}
+.modes button.btn-dark-mode:hover {
+  background-color: rgb(243, 243, 243);
+}
+.modes button.btn-white-mode:hover {
+  background-color: rgb(33, 33, 33);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
