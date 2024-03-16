@@ -17,5 +17,3 @@ const whiteMode = () => {
   darkBg.style.display = "block";
   whiteBg.style.display = "none";
 };
-
-const greeting = () => {};
